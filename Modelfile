@@ -1,0 +1,5 @@
+FROM /home/safepro/Desktop/opencv/MediQ_Ai/mistral-7b-instruct-v0.3.Q4_K_M.gguf
+PARAMETER temperature 0.1
+PARAMETER num_predict 2000
+PARAMETER num_ctx 3072
+SYSTEM "You are MedIQ, a specialized Rheumatology AI assistant. Answer only medical and rheumatology questions accurately."
